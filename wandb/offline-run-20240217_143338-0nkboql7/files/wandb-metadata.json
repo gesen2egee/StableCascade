@@ -1,0 +1,55 @@
+{
+    "os": "Windows-10-10.0.26058-SP0",
+    "python": "3.10.11",
+    "heartbeatAt": "2024-02-17T06:33:39.106055",
+    "startedAt": "2024-02-17T06:33:38.947206",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "configs/training/finetune_c_1b.yaml"
+    ],
+    "state": "running",
+    "program": "D:\\SDXL\\StableCascade\\train_c.py",
+    "codePathLocal": "train_c.py",
+    "codePath": "train_c.py",
+    "git": {
+        "remote": "https://github.com/2kpr/StableCascade",
+        "commit": "8bbb025e556f369874533623f505c9f5930eaa34"
+    },
+    "email": "79357052+gesen2egee@users.noreply.github.com",
+    "root": "D:/SDXL/StableCascade",
+    "host": "DESKTOP-1OFV09E",
+    "username": "gesen",
+    "executable": "D:\\SDXL\\StableCascade\\venv\\Scripts\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2500.0,
+        "min": 0.0,
+        "max": 2500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 0.0,
+            "max": 2500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1907.7119102478027,
+            "used": 1691.3802604675293
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3080",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 31.747406005859375
+    }
+}

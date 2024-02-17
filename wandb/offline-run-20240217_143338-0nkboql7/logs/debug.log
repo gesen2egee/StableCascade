@@ -1,0 +1,26 @@
+2024-02-17 14:33:38,951 INFO    MainThread:42376 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-17 14:33:38,951 INFO    MainThread:42376 [wandb_setup.py:_flush():76] Configure stats pid to 42376
+2024-02-17 14:33:38,951 INFO    MainThread:42376 [wandb_setup.py:_flush():76] Loading settings from C:\Users\gesen\.config\wandb\settings
+2024-02-17 14:33:38,951 INFO    MainThread:42376 [wandb_setup.py:_flush():76] Loading settings from D:\SDXL\StableCascade\wandb\settings
+2024-02-17 14:33:38,951 INFO    MainThread:42376 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-17 14:33:38,951 INFO    MainThread:42376 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-17 14:33:38,960 INFO    MainThread:42376 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_c.py', 'program_abspath': 'D:\\SDXL\\StableCascade\\train_c.py', 'program': 'D:\\SDXL\\StableCascade\\train_c.py'}
+2024-02-17 14:33:38,960 INFO    MainThread:42376 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2024-02-17 14:33:38,960 INFO    MainThread:42376 [wandb_init.py:_log_setup():526] Logging user logs to D:\SDXL\StableCascade\wandb\offline-run-20240217_143338-0nkboql7\logs\debug.log
+2024-02-17 14:33:38,960 INFO    MainThread:42376 [wandb_init.py:_log_setup():527] Logging internal logs to D:\SDXL\StableCascade\wandb\offline-run-20240217_143338-0nkboql7\logs\debug-internal.log
+2024-02-17 14:33:38,960 INFO    MainThread:42376 [wandb_init.py:init():566] calling init triggers
+2024-02-17 14:33:38,960 INFO    MainThread:42376 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'training': True, 'experiment_id': 'stage_c_1b_finetuning', 'checkpoint_path': '/path/to/checkpoint', 'output_path': '/path/to/output', 'checkpoint_extension': 'safetensors', 'dist_file_subfolder': '', 'allow_tf32': True, 'wandb_project': 'StableCascade', 'wandb_entity': 'wandb_username', 'single_gpu': False, 'image_size': 768, 'webdataset_path': ['s3://path/to/your/first/dataset/on/s3', 's3://path/to/your/second/dataset/on/s3'], 'grad_accum_steps': 1, 'batch_size': 1024, 'multi_aspect_ratio': None, 'captions_getter': None, 'dataset_filters': None, 'bucketeer_random_ratio': 0.05, 'updates': 10000, 'backup_every': 20000, 'save_every': 2000, 'ema_start_iters': None, 'ema_iters': None, 'ema_beta': None, 'use_fsdp': True, 'use_8bit_adam': None, 'lr': 0.0001, 'warmup_updates': 1, 'dtype': None, 'model_version': '1B', 'clip_image_model_name': 'openai/clip-vit-large-patch14', 'clip_text_model_name': 'laion/CLIP-ViT-bigG-14-laion2B-39B-b160k', 'effnet_checkpoint_path': 'models/effnet_encoder.safetensors', 'previewer_checkpoint_path': 'models/previewer.safetensors', 'generator_checkpoint_path': 'models/stage_c_lite_bf16.safetensors', 'adaptive_loss_weight': None}
+2024-02-17 14:33:38,960 INFO    MainThread:42376 [wandb_init.py:init():616] starting backend
+2024-02-17 14:33:38,960 INFO    MainThread:42376 [wandb_init.py:init():620] setting up manager
+2024-02-17 14:33:38,966 INFO    MainThread:42376 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-02-17 14:33:38,969 INFO    MainThread:42376 [wandb_init.py:init():628] backend started and connected
+2024-02-17 14:33:38,974 INFO    MainThread:42376 [wandb_init.py:init():720] updated telemetry
+2024-02-17 14:33:39,032 INFO    MainThread:42376 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-17 14:33:39,036 INFO    MainThread:42376 [wandb_init.py:init():804] starting run threads in backend
+2024-02-17 14:33:39,187 INFO    MainThread:42376 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-17 14:33:39,187 INFO    MainThread:42376 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-17 14:33:39,187 INFO    MainThread:42376 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-17 14:33:39,187 INFO    MainThread:42376 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-17 14:33:39,188 INFO    MainThread:42376 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-17 14:33:40,420 WARNING MsgRouterThr:42376 [router.py:message_loop():77] message_loop has been closed
